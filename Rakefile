@@ -16,6 +16,6 @@ Motion::Project::App.setup do |app|
   app.name = 'indoctrinator'
 
   app.pods do
-    pod 'ICETutorial'
+    pod 'ICETutorial', '~> 1.1'
   end
 end
